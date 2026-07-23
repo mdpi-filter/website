@@ -15,7 +15,7 @@
     <p class="eyebrow">Firefox extension</p>
     <h1>Privacy policy for Notandia</h1>
     <p><strong>Last updated:</strong> July 23, 2026</p>
-    <p>Notandia, previously distributed as MDPI Filter, identifies publisher-related content and can optionally check scholarly DOI identifiers for formal post-publication updates. Most processing occurs locally in Firefox.</p>
+    <p>The Firefox version of Notandia has not yet been released. It identifies publisher-related content and can optionally check scholarly DOI identifiers for formal post-publication updates. Most processing occurs locally in Firefox.</p>
     <p>Notandia is an independent open-source project and is not affiliated with, authorized by, or endorsed by MDPI AG, Crossref, Retraction Watch, NCBI, Mozilla, or any publisher or data provider.</p>
 
     <h2>Information handled locally</h2>
@@ -32,8 +32,8 @@
     <p>Crossref requests place the DOI in the HTTPS endpoint, omit browser credentials, use a no-referrer policy, and do not include the page address, article text, citation text, search query, account identifier, or analytics identifier. Each scan attempts no more than 50 unique DOI lookups and starts no more than four requests per second. Crossref necessarily receives the DOI and the IP address used for ordinary network communication.</p>
     <p>Disabling integrity lookups stops new requests, cancels active or queued requests, and removes the optional data-collection permission where supported. A result stating that no signal was found means only that none was found in the checked records; it is not a guarantee of research quality or reliability.</p>
 
-    <h2>Released add-on identity</h2>
-    <p>The Firefox package retains the legacy Gecko ID <code>mdpi-filter@mdpi-filter.org</code> so existing signed installations remain on the same update identity. This internal identifier is not the public product name and does not change the data processed or transmitted.</p>
+    <h2>Pre-release add-on identity</h2>
+    <p>The first Firefox submission is planned to use the Gecko ID <code>browser-extension@notandia.github.io</code>. Because no Firefox version has yet been signed or published, this is a pre-release identifier rather than an existing-user compatibility identity.</p>
 
     <h2>Issue reports</h2>
     <p>Selecting <strong>Report a detection issue</strong> opens a public GitHub issue form in <code>notandia/browser-extension</code>. The extension pre-fills only the page origin and path, Firefox and extension version, and whether integrity lookups are enabled; it removes query parameters and fragments. Nothing is submitted automatically, and the user can edit or discard the report.</p>
